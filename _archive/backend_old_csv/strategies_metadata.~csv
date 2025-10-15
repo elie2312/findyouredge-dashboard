@@ -1,0 +1,10 @@
+strategy_id,auto_name,auto_description,custom_name,custom_description,timeframe,risk_model,category,tags,notes
+BACKTEST_15mn_1R_PARAM,15mn 1R,Stratégie 15mn 1R | Timeframe: 15 minutes | Risque: 1R (Risk/Reward 1:1),OPR 15mn 1R,Stratégie OPR optimisée 15 minutes avec ratio 1:1,15 minutes,1R (Risk/Reward 1:1),OPR,"15 minutes, 1R (Risk/Reward 1:1)",Stratégie principale pour le trading OPR
+BACKTEST_15mn_5R_PARAM,15mn 5R,Stratégie 15mn 5R | Timeframe: 15 minutes | Risque: 5R (Risk/Reward 1:5),,,15 minutes,5R (Risk/Reward 1:5),OPR,"15 minutes, 5R (Risk/Reward 1:5)",
+BACKTEST_15mn_PARAM,15mn,Stratégie 15mn | Timeframe: 15 minutes | Risque: Risk/Reward variable,,,15 minutes,Risk/Reward variable,OPR,"15 minutes, Risk/Reward variable",
+BACKTEST_30mn_SimpleCandle_Strategy_PARAM,30mn SimpleCandle Strategy,"Stratégie 30mn SimpleCandle Strategy | Risque max: $1,000",,,Non détecté,Modèle standard,SimpleCandle,"30 minutes, SimpleCandle",
+BACKTEST_30sec_10R_PARAM,30sec 10R,"Stratégie 30sec 10R | Timeframe: 30 secondes | Risque: 10R (Risk/Reward 1:10) | Risque max: $2,500",,,30 secondes,10R (Risk/Reward 1:10),OPR,"30 secondes, 10R (Risk/Reward 1:10)",
+BACKTEST_30sec_1R_PARAM,30sec 1R,"Stratégie 30sec 1R | Timeframe: 30 secondes | Risque: 1R (Risk/Reward 1:1) | Risque max: $2,500",,,30 secondes,1R (Risk/Reward 1:1),OPR,"30 secondes, 1R (Risk/Reward 1:1)",
+BACKTEST_30sec_PARAM,30sec,Stratégie 30sec | Timeframe: 30 secondes | Risque: Risk/Reward variable,,,30 secondes,Risk/Reward variable,OPR,"30 secondes, Risk/Reward variable",
+BACKTEST_30sec_optidata_PARAM,30sec optidata,Stratégie 30sec optidata | Timeframe: 30 secondes | Risque: Risk/Reward variable,,,30 secondes,Risk/Reward variable,OPR,"30 secondes, Risk/Reward variable",
+BACKTEST_SuperTrend_ScaleIn_NoCut,SuperTrend ScaleIn NoCut,Stratégie SuperTrend ScaleIn NoCut | Timeframe: Multi-timeframe | Risque: Scale-In (No Exit),,,Multi-timeframe,Scale-In (No Exit),SuperTrend,"Multi-timeframe, Scale-In",

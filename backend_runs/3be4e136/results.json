@@ -1,0 +1,142 @@
+{
+  "strategy": "OPR 15mn 1R",
+  "files": [
+    "front_month_selection_log.csv",
+    "opr_trades_1R_param.csv"
+  ],
+  "metrics": {
+    "total_trades": 6,
+    "winning_trades": 5,
+    "losing_trades": 1,
+    "win_rate": 0.8333333333333334,
+    "net_pnl": 470.0,
+    "gross_profit": 950.0,
+    "gross_loss": 480.0,
+    "profit_factor": 1.9791666666666667,
+    "max_drawdown": -480.0,
+    "avg_win": 190.0,
+    "avg_loss": -480.0,
+    "expectancy": 78.33333333333333
+  },
+  "trades": [
+    {
+      "id": 1,
+      "date": "2024-08-14",
+      "entry_time": "2024-08-14 13:51:44+00:00",
+      "exit_time": "2024-08-14 13:51:49+00:00",
+      "direction": "SHORT",
+      "entry": 19042.75,
+      "exit": 19038.0,
+      "points": 4.75,
+      "pnl_usd": 190.0,
+      "result": "TP"
+    },
+    {
+      "id": 2,
+      "date": "2024-08-15",
+      "entry_time": "2024-08-15 13:48:02+00:00",
+      "exit_time": "2024-08-15 13:49:43+00:00",
+      "direction": "LONG",
+      "entry": 19396.5,
+      "exit": 19401.25,
+      "points": 4.75,
+      "pnl_usd": 190.0,
+      "result": "TP"
+    },
+    {
+      "id": 3,
+      "date": "2024-08-16",
+      "entry_time": "2024-08-16 14:02:12+00:00",
+      "exit_time": "2024-08-16 14:02:18+00:00",
+      "direction": "LONG",
+      "entry": 19535.0,
+      "exit": 19539.75,
+      "points": 4.75,
+      "pnl_usd": 190.0,
+      "result": "TP"
+    },
+    {
+      "id": 4,
+      "date": "2024-08-19",
+      "entry_time": "2024-08-19 13:47:45+00:00",
+      "exit_time": "2024-08-19 13:48:58+00:00",
+      "direction": "LONG",
+      "entry": 19617.5,
+      "exit": 19622.25,
+      "points": 4.75,
+      "pnl_usd": 190.0,
+      "result": "TP"
+    },
+    {
+      "id": 5,
+      "date": "2024-08-20",
+      "entry_time": "2024-08-20 13:46:20+00:00",
+      "exit_time": "2024-08-20 13:46:56+00:00",
+      "direction": "LONG",
+      "entry": 19879.0,
+      "exit": 19867.0,
+      "points": -12.0,
+      "pnl_usd": -480.0,
+      "result": "SL"
+    },
+    {
+      "id": 6,
+      "date": "2024-08-21",
+      "entry_time": "2024-08-21 13:45:46+00:00",
+      "exit_time": "2024-08-21 13:46:22+00:00",
+      "direction": "LONG",
+      "entry": 19861.0,
+      "exit": 19865.75,
+      "points": 4.75,
+      "pnl_usd": 190.0,
+      "result": "TP"
+    }
+  ],
+  "trades_count": 6,
+  "error": null,
+  "debug_info": [
+    "Recherche dans: C:\\Users\\elieb\\Desktop\\Dashboard\\backend_runs\\3be4e136",
+    "  Trouv\u00e9 3 fichiers CSV",
+    "  front_month_selection_log.csv: 0.0min",
+    "    -> D\u00e9j\u00e0 dans run_dir",
+    "  opr_trades_1R_param.csv: 0.0min",
+    "    -> D\u00e9j\u00e0 dans run_dir",
+    "Recherche dans: C:\\Users\\elieb\\Desktop\\Dashboard\\backend",
+    "  Trouv\u00e9 7 fichiers CSV",
+    "  close30_trades.csv: 36.7min",
+    "  front_month_selection_log.csv: 34.6min",
+    "  front_month_selection_log_30secOPR_5R_opposite_bound.csv: 39.0min",
+    "  opr_trades_1R_param.csv: 36.4min",
+    "  opr_trades_utc_front_month_30secOPR_5R_opposite_bound.csv: 39.0min",
+    "  strategies_metadata.csv: 69.3min",
+    "  supertrend_scalein_trades.csv: 34.6min",
+    "Recherche dans: C:\\Users\\elieb\\Desktop\\Dashboard\\backend\\data\\outputs",
+    "  Trouv\u00e9 7 fichiers CSV",
+    "  trades_detail_15MNOPR_20250822_120019.csv: 73718.4min",
+    "  trades_detail_15mnOPR_5R20250826_105223.csv: 68023.1min",
+    "  trades_detail_30secOPR_10R20250825_152439.csv: 69188.6min",
+    "  trades_detail_30secOPR_20250822_120807.csv: 73706.9min",
+    "  trades_detail_30secOPR_RULESV120250822_130852.csv: 73650.3min",
+    "  trades_detail_30secOPR_RULESV120250822_131450.csv: 73638.5min",
+    "  trades_detail_30secOPR_RULESV320250825_144024.csv: 69233.5min",
+    "Chemin inexistant: C:\\Users\\elieb\\Desktop\\Dashboard\\backend\\backtests",
+    "Fichier de trades trouv\u00e9: opr_trades_1R_param.csv",
+    "Analyse trades: 6 trades"
+  ],
+  "equity_curve": [
+    190.0,
+    380.0,
+    570.0,
+    760.0,
+    280.0,
+    470.0
+  ],
+  "drawdown_curve": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    -480.0,
+    -290.0
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "strategy": "OPR 15mn 1R",
+  "files": [],
+  "metrics": {},
+  "trades": [],
+  "trades_count": 0,
+  "error": "WindowsPath('C:/Users/elieb/Desktop/Dashboard/backend_runs/8671dee3/filtered_data.csv') and WindowsPath('C:/Users/elieb/Desktop/Dashboard/backend_runs/8671dee3/filtered_data.csv') are the same file",
+  "debug_info": [
+    "Erreur: WindowsPath('C:/Users/elieb/Desktop/Dashboard/backend_runs/8671dee3/filtered_data.csv') and WindowsPath('C:/Users/elieb/Desktop/Dashboard/backend_runs/8671dee3/filtered_data.csv') are the same file"
+  ]
+}

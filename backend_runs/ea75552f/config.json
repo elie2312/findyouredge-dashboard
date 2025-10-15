@@ -1,0 +1,21 @@
+{
+  "run_id": "ea75552f",
+  "strategy_name": "OPR 30mn CLOSE 13 14 SIMPLE",
+  "script_path": "C:\\Users\\elieb\\Desktop\\Dashboard\\backend\\strategies\\BACKTEST_30mn_CLOSE_13_14_SIMPLE_PARAM.py",
+  "base_path": "C:\\Users\\elieb\\Desktop\\Dashboard\\backend",
+  "csv_path": null,
+  "parameters": {
+    "FLAT_TIME_UTC": "20:00:00",
+    "TICK_SIZE": 0.25,
+    "POINT_VALUE": 20,
+    "SLIPPAGE_TICKS": 0,
+    "COMMISSION_RT": 0,
+    "MAX_TRADES_PER_DAY": 4,
+    "MAX_RISK_USD": 1000,
+    "OPR_START_UTC": "13:00:00",
+    "START_DATE": "2025-07-30",
+    "END_DATE": "2025-08-13"
+  },
+  "name": "test n",
+  "created_at": "2025-10-10T14:47:34.494640"
+}

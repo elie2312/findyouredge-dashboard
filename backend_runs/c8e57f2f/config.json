@@ -1,0 +1,21 @@
+{
+  "run_id": "c8e57f2f",
+  "strategy_name": "OPR 15mn",
+  "script_path": "C:\\Users\\elieb\\Desktop\\Dashboard\\backend\\strategies\\BACKTEST_15mn_PARAM.py",
+  "base_path": "C:\\Users\\elieb\\Desktop\\Dashboard\\backend",
+  "csv_path": null,
+  "parameters": {
+    "OPR_START_UTC": "13:30:00",
+    "FLAT_TIME_UTC": "20:00:00",
+    "TICK_SIZE": 0.25,
+    "POINT_VALUE": 20,
+    "ENTRY_BUFFER_TICKS": 2,
+    "SLIPPAGE_TICKS": 0,
+    "COMMISSION_RT": 0,
+    "MAX_TRADES_PER_DAY": 1,
+    "START_DATE": "2025-07-30",
+    "END_DATE": "2025-08-13"
+  },
+  "name": "TEST",
+  "created_at": "2025-10-10T21:31:43.662095"
+}

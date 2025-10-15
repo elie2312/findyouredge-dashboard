@@ -1,0 +1,11 @@
+{
+  "run_id": "42c86731",
+  "status": "completed",
+  "progress": 1.0,
+  "message": "Backtest termin\u00e9 avec succ\u00e8s",
+  "name": "Simple",
+  "started_at": "2025-10-12T16:24:02.920371",
+  "completed_at": "2025-10-12T16:24:48.844660",
+  "error": null,
+  "output_files": []
+}

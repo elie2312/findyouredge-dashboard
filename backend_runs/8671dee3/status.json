@@ -1,0 +1,11 @@
+{
+  "run_id": "8671dee3",
+  "status": "completed",
+  "progress": 1.0,
+  "message": "Backtest termin\u00e9 avec succ\u00e8s",
+  "name": "OPR",
+  "started_at": "2025-10-12T16:24:21.420544",
+  "completed_at": "2025-10-12T16:25:21.105542",
+  "error": null,
+  "output_files": []
+}

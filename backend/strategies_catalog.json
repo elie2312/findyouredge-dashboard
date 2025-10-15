@@ -1,0 +1,65 @@
+{
+  "BACKTEST_15mn_1R_PARAM": {
+    "category": "OPR",
+    "tags": [
+      "15 minutes",
+      "1R (Risk/Reward 1:1)"
+    ]
+  },
+  "BACKTEST_15mn_5R_PARAM": {
+    "category": "OPR",
+    "tags": [
+      "15 minutes",
+      "5R (Risk/Reward 1:5)"
+    ]
+  },
+  "BACKTEST_15mn_PARAM": {
+    "category": "OPR",
+    "tags": [
+      "15 minutes",
+      "Risk/Reward variable"
+    ]
+  },
+  "BACKTEST_30mn_SimpleCandle_Strategy_PARAM": {
+    "category": "SimpleCandle",
+    "tags": [
+      "30 minutes",
+      "SimpleCandle"
+    ]
+  },
+  "BACKTEST_30sec_10R_PARAM": {
+    "category": "OPR",
+    "tags": [
+      "30 secondes",
+      "10R (Risk/Reward 1:10)"
+    ]
+  },
+  "BACKTEST_30sec_1R_PARAM": {
+    "category": "OPR",
+    "tags": [
+      "30 secondes",
+      "1R (Risk/Reward 1:1)"
+    ]
+  },
+  "BACKTEST_30sec_PARAM": {
+    "category": "OPR",
+    "tags": [
+      "30 secondes",
+      "Risk/Reward variable"
+    ]
+  },
+  "BACKTEST_30sec_optidata_PARAM": {
+    "category": "OPR",
+    "tags": [
+      "30 secondes",
+      "Risk/Reward variable"
+    ]
+  },
+  "BACKTEST_SuperTrend_ScaleIn_NoCut": {
+    "category": "SuperTrend",
+    "tags": [
+      "Multi-timeframe",
+      "Scale-In"
+    ]
+  }
+}

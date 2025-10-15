@@ -1,0 +1,14 @@
+{
+  "run_id": "9a02bd92",
+  "status": "completed",
+  "progress": 1.0,
+  "message": "Backtest termin\u00e9 avec succ\u00e8s",
+  "name": null,
+  "started_at": "2025-10-10T15:01:08.727816",
+  "completed_at": "2025-10-10T15:01:37.567084",
+  "error": null,
+  "output_files": [
+    "close30_trades.csv",
+    "front_month_selection_log.csv"
+  ]
+}

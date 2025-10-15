@@ -1,0 +1,14 @@
+{
+  "run_id": "9d8aa99d",
+  "status": "completed",
+  "progress": 1.0,
+  "message": "Backtest termin\u00e9 avec succ\u00e8s",
+  "name": "super",
+  "started_at": "2025-10-12T16:31:16.788331",
+  "completed_at": "2025-10-12T16:32:36.116424",
+  "error": null,
+  "output_files": [
+    "front_month_selection_log.csv",
+    "supertrend_scalein_trades.csv"
+  ]
+}

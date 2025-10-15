@@ -1,0 +1,15 @@
+{
+  "run_id": "fc61c1ce",
+  "status": "completed",
+  "progress": 1.0,
+  "message": "Backtest termin\u00e9 avec succ\u00e8s",
+  "name": "OPR 15MN 1R",
+  "started_at": "2025-10-10T14:18:39.422115",
+  "completed_at": "2025-10-10T14:19:16.925956",
+  "error": null,
+  "output_files": [
+    "front_month_selection_log.csv",
+    "opr_trades_1R_param.csv",
+    "supertrend_scalein_trades.csv"
+  ]
+}

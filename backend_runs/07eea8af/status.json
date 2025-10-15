@@ -1,0 +1,18 @@
+{
+  "run_id": "07eea8af",
+  "status": "completed",
+  "progress": 1.0,
+  "message": "Backtest termin\u00e9 avec succ\u00e8s",
+  "name": "es",
+  "started_at": "2025-10-12T15:57:02.112283",
+  "completed_at": "2025-10-12T15:57:31.153986",
+  "error": null,
+  "output_files": [
+    "close30_trades.csv",
+    "front_month_selection_log.csv",
+    "front_month_selection_log_30secOPR_5R_opposite_bound.csv",
+    "opr_trades_1R_param.csv",
+    "opr_trades_utc_front_month_30secOPR_5R_opposite_bound.csv",
+    "supertrend_scalein_trades.csv"
+  ]
+}

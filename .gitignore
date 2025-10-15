@@ -1,0 +1,117 @@
+# ============================================
+# FICHIERS SENSIBLES - NE JAMAIS COMMITER
+# ============================================
+# Variables d'environnement avec secrets/clés API
+.env
+.env.local
+.env*.local
+backend/.env
+frontend/.env.local
+frontend/ENV_LOCAL_CONTENT.txt
+
+# ============================================
+# PYTHON / BACKEND
+# ============================================
+# Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# Distribution / packaging
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs
+*.log
+debug.log
+backend/debug.log
+
+# ============================================
+# NODE.JS / FRONTEND
+# ============================================
+# Dependencies
+node_modules/
+frontend/node_modules/
+/.pnp
+.pnp.js
+
+# Next.js
+.next/
+out/
+frontend/.next/
+
+# Production
+/build
+
+# Testing
+/coverage
+
+# Misc
+.DS_Store
+*.pem
+Thumbs.db
+
+# Debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+frontend/tsconfig.tsbuildinfo
+
+# Vercel
+.vercel
+
+# ============================================
+# DONNÉES ET RÉSULTATS (volumineux)
+# ============================================
+# Fichiers CSV de données de marché
+*.csv
+backend/data/raw/*.csv
+backend/data/*.csv
+
+# EXCEPTION : Garder les métadonnées et catalogues
+!backend/strategies_metadata.csv
+!backend/strategies_catalog.json
+
+# Résultats de backtests
+backend/runs/
+backend/backend_runs/
+backend/*.csv
+
+# ============================================
+# IDE / ÉDITEURS
+# ============================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ============================================
+# OS
+# ============================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
