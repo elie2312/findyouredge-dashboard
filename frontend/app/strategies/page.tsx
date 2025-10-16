@@ -17,6 +17,7 @@ import {
   TableRow,
 } from '@/components/ui/table'
 import { Target, Download, TrendingUp, TrendingDown, Activity, Eye, Calendar, X } from 'lucide-react'
+import { API_URL } from '@/lib/config'
 
 interface StrategyStats {
   total_trades: number
@@ -56,7 +57,7 @@ export default function StrategiesPage() {
     setError(null)
     try {
       // Construire l'URL avec les paramètres de date
-      let url = 'http://localhost:8000/api/ninja-strategies'
+      let url = `${API_URL}/api/ninja-strategies`
       const params = new URLSearchParams()
       
       if (startDate) params.append('start_date', startDate)
@@ -87,7 +88,7 @@ export default function StrategiesPage() {
 
   const handleDownload = async (strategyId: string, filename: string) => {
     try {
-      const response = await fetch(`http://localhost:8000/api/ninja-strategies/${strategyId}/download`)
+      const response = await fetch(`${API_URL}/api/ninja-strategies/${strategyId}/download`)
       if (!response.ok) {
         throw new Error('Erreur lors du téléchargement')
       }

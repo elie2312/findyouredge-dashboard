@@ -9,6 +9,7 @@ import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
 import { Zap, Activity, BarChart3, Target, TrendingUp, TrendingDown, Clock, Eye, X, Play } from 'lucide-react'
 import Link from 'next/link'
+import { API_URL } from '@/lib/config'
 
 interface Strategy {
   id: number
@@ -52,8 +53,8 @@ export default function BacktestingPage() {
     setIsLoading(true)
     try {
       const [strategiesRes, runsRes] = await Promise.all([
-        fetch('http://localhost:8000/api/strategies'),
-        fetch('http://localhost:8000/api/runs?limit=10')
+        fetch(`${API_URL}/api/strategies`),
+        fetch(`${API_URL}/api/runs?limit=10`)
       ])
 
       const strategiesData = await strategiesRes.json()
@@ -75,7 +76,7 @@ export default function BacktestingPage() {
     }
     setDeletingRunId(runId)
     try {
-      await fetch(`http://localhost:8000/api/runs/${runId}`, { method: 'DELETE' })
+      await fetch(`${API_URL}/api/runs/${runId}`, { method: 'DELETE' })
       await loadData()
     } catch (error) {
       console.error('Erreur suppression:', error)

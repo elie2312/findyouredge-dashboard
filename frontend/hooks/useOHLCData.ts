@@ -1,4 +1,5 @@
 import { useQuery } from '@tanstack/react-query'
+import { API_URL } from '@/lib/config'
 
 interface OHLCBar {
   timestamp: string
@@ -21,7 +22,7 @@ export function useOHLCData(days: number = 7) {
   return useQuery<OHLCData>({
     queryKey: ['ohlc-data', days],
     queryFn: async () => {
-      const response = await fetch(`http://localhost:8000/api/runs/ohlc-data?days=${days}`)
+      const response = await fetch(`${API_URL}/api/runs/ohlc-data?days=${days}`)
       if (!response.ok) {
         throw new Error('Failed to fetch OHLC data')
       }

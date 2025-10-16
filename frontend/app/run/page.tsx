@@ -14,6 +14,7 @@ import { Header } from '@/components/dashboard/header'
 import { ProtectedRoute } from '@/components/auth/protected-route'
 import { Play, Calendar, Settings, Loader2, Eye, Target, Activity, Filter } from 'lucide-react'
 import type { Strategy } from '@/types/api'
+import { API_URL } from '@/lib/config'
 
 export default function RunPage() {
   const router = useRouter()
@@ -29,7 +30,7 @@ export default function RunPage() {
   // Fonction pour vérifier le statut d'un run
   const checkRunStatus = async (runId: string) => {
     try {
-      const response = await fetch(`http://localhost:8000/api/runs/${runId}/status`)
+      const response = await fetch(`${API_URL}/api/runs/${runId}/status`)
       if (response.ok) {
         const status = await response.json()
         setRunStatus(status)
@@ -53,7 +54,7 @@ export default function RunPage() {
   const createRun = async (params: any) => {
     setIsCreatingRun(true)
     try {
-      const response = await fetch('http://localhost:8000/api/runs', {
+      const response = await fetch(`${API_URL}/api/runs`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

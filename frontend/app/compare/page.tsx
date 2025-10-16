@@ -13,6 +13,7 @@ import { ArrowLeft, TrendingUp, TrendingDown, BarChart3, Target, Activity, Dolla
 import { formatUSD, formatPercent } from '@/lib/utils'
 import type { RunResults } from '@/types/api'
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Legend } from 'recharts'
+import { API_URL } from '@/lib/config'
 
 export default function ComparePage() {
   const router = useRouter()
@@ -31,7 +32,7 @@ export default function ComparePage() {
           if (prev[runId]) return prev
           
           // Lancer le chargement
-          fetch(`http://localhost:8000/api/runs/${runId}/results`)
+          fetch(`${API_URL}/api/runs/${runId}/results`)
             .then(response => {
               if (response.ok) {
                 return response.json()

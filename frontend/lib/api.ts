@@ -12,10 +12,11 @@ import type {
   RunStatus,
   RunResults
 } from '@/types/api'
+import { API_URL } from './config'
 
 // Configuration axios
 const api = axios.create({
-  baseURL: 'http://localhost:8000/api',
+  baseURL: `${API_URL}/api`,
   headers: {
     'Content-Type': 'application/json',
   },

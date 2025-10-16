@@ -10,6 +10,7 @@ import { Header } from '@/components/dashboard/header'
 import { ProtectedRoute } from '@/components/auth/protected-route'
 import { BarChart3, Calendar, Clock, TrendingUp, Target, Activity } from 'lucide-react'
 import { formatUSD, formatPercent } from '@/lib/utils'
+import { API_URL } from '@/lib/config'
 
 interface HeatmapData {
   day: string
@@ -34,7 +35,7 @@ export default function AnalyticsPage() {
     setIsLoadingHeatmap(true)
     try {
       console.log(`🔍 Chargement heatmap pour run: ${runId}`)
-      const response = await fetch(`http://localhost:8000/api/runs/${runId}/heatmap`)
+      const response = await fetch(`${API_URL}/api/runs/${runId}/heatmap`)
       
       if (response.ok) {
         const data = await response.json()

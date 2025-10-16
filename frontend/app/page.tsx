@@ -12,6 +12,7 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { Badge } from '@/components/ui/badge'
 import { Zap, TrendingUp, Target, Activity, ArrowRight, Sparkles, BarChart3, Clock } from 'lucide-react'
 import Link from 'next/link'
+import { API_URL } from '@/lib/config'
 
 interface NinjaStrategy {
   id: string
@@ -40,7 +41,7 @@ export default function Home() {
     const startTime = Date.now()
     
     try {
-      const response = await fetch('http://localhost:8000/api/ninja-strategies')
+      const response = await fetch(`${API_URL}/api/ninja-strategies`)
       const data = await response.json()
       setNinjaStrategies(data.strategies || [])
     } catch (error) {

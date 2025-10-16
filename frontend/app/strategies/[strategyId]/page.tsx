@@ -17,6 +17,7 @@ import {
 } from '@/components/ui/table'
 import { ArrowLeft, Download, TrendingUp, TrendingDown, Target, Activity, Calendar, X } from 'lucide-react'
 import { EquityChart, DrawdownChart, WinLossPie, ProfitLossBar } from '@/components/charts'
+import { API_URL } from '@/lib/config'
 
 interface StrategyStats {
   total_trades: number
@@ -73,7 +74,7 @@ export default function StrategyDetailPage() {
     setError(null)
     try {
       // Construire l'URL avec les paramètres de date
-      let url = `http://localhost:8000/api/ninja-strategies/${strategyId}/data`
+      let url = `${API_URL}/api/ninja-strategies/${strategyId}/data`
       const params = new URLSearchParams()
       
       if (startDate) params.append('start_date', startDate)
@@ -121,7 +122,7 @@ export default function StrategyDetailPage() {
     if (!strategyId) return
     
     try {
-      const response = await fetch(`http://localhost:8000/api/ninja-strategies/${strategyId}/download`)
+      const response = await fetch(`${API_URL}/api/ninja-strategies/${strategyId}/download`)
       if (!response.ok) {
         throw new Error('Erreur lors du téléchargement')
       }
