@@ -19,6 +19,9 @@ app.add_middleware(
     allow_origins=[
         "http://localhost:3000",  # Next.js dev
         "http://localhost:3001",
+        "https://app.findyouredge.pro",  # Production
+        "https://findyouredge-dashboard.vercel.app",  # Vercel
+        "https://*.vercel.app",  # Vercel preview deployments
     ],
     allow_credentials=True,
     allow_methods=["*"],
