@@ -17,7 +17,7 @@ router = APIRouter()
 
 # Chemin vers le dossier ninja_runs
 BACKEND_PATH = Path(__file__).parent.parent
-NINJA_RUNS_PATH = BACKEND_PATH.parent / "ninja_runs"
+NINJA_RUNS_PATH = BACKEND_PATH / "ninja_runs"
 
 
 def clean_for_json(obj):
