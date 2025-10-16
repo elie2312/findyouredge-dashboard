@@ -1,0 +1,11 @@
+{
+  "strategy": "SuperTrend ScaleIn NoCut",
+  "files": [],
+  "metrics": {},
+  "trades": [],
+  "trades_count": 0,
+  "error": "WindowsPath('C:/Users/elieb/Desktop/Dashboard/backend_runs/65d167f4/filtered_data.csv') and WindowsPath('C:/Users/elieb/Desktop/Dashboard/backend_runs/65d167f4/filtered_data.csv') are the same file",
+  "debug_info": [
+    "Erreur: WindowsPath('C:/Users/elieb/Desktop/Dashboard/backend_runs/65d167f4/filtered_data.csv') and WindowsPath('C:/Users/elieb/Desktop/Dashboard/backend_runs/65d167f4/filtered_data.csv') are the same file"
+  ]
+}

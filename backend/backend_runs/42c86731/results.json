@@ -1,0 +1,11 @@
+{
+  "strategy": "30mn SimpleCandle Strategy",
+  "files": [],
+  "metrics": {},
+  "trades": [],
+  "trades_count": 0,
+  "error": "WindowsPath('C:/Users/elieb/Desktop/Dashboard/backend_runs/42c86731/close30_trades.csv') and WindowsPath('C:/Users/elieb/Desktop/Dashboard/backend_runs/42c86731/close30_trades.csv') are the same file",
+  "debug_info": [
+    "Erreur: WindowsPath('C:/Users/elieb/Desktop/Dashboard/backend_runs/42c86731/close30_trades.csv') and WindowsPath('C:/Users/elieb/Desktop/Dashboard/backend_runs/42c86731/close30_trades.csv') are the same file"
+  ]
+}

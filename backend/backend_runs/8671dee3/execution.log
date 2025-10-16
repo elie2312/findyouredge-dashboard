@@ -1,0 +1,20 @@
+=== Commande ===
+C:\Users\elieb\Desktop\Dashboard\backend\venv\Scripts\python.exe C:\Users\elieb\Desktop\Dashboard\backend_runs\8671dee3\BACKTEST_15mn_1R_PARAM.py
+
+=== Exécution ===
+Loading data (UTC)...
+Rows total: 271,529 | Symbols example: ['NQH5', 'NQU4', 'NQZ4'] ...
+Backtest with STOP_MODE=fixed_r_points | R_POINTS=12.0 | TP_IN_R=0.4 ...
+Saved trades to: opr_trades_1R_param.csv
+Saved selection log to: front_month_selection_log.csv
+
+=== RESULTS (1R param) ===
+          trades: 6
+        win_rate: 83.33%
+   profit_factor: 1.98
+     avg_win_usd: 190.00
+    avg_loss_usd: -480.00
+  expectancy_usd: 78.33
+     net_pnl_usd: 470.00
+      max_dd_usd: -480.00
+            days: 8

@@ -1,0 +1,66 @@
+=== Commande ===
+C:\Users\elieb\Desktop\Dashboard\backend\venv\Scripts\python.exe C:\Users\elieb\Desktop\Dashboard\backend_runs\07eea8af\BACKTEST_SuperTrend_ScaleIn_NoCut.py
+
+=== Exécution ===
+C:\Users\elieb\Desktop\Dashboard\backend_runs\07eea8af\BACKTEST_SuperTrend_ScaleIn_NoCut.py:136: FutureWarning: 'T' is deprecated and will be removed in a future version, please use 'min' instead.
+  resampled = symbol_df.resample(f'{TIMEFRAME_MINUTES}T').agg({
+C:\Users\elieb\Desktop\Dashboard\backend_runs\07eea8af\BACKTEST_SuperTrend_ScaleIn_NoCut.py:136: FutureWarning: 'T' is deprecated and will be removed in a future version, please use 'min' instead.
+  resampled = symbol_df.resample(f'{TIMEFRAME_MINUTES}T').agg({
+C:\Users\elieb\Desktop\Dashboard\backend_runs\07eea8af\BACKTEST_SuperTrend_ScaleIn_NoCut.py:136: FutureWarning: 'T' is deprecated and will be removed in a future version, please use 'min' instead.
+  resampled = symbol_df.resample(f'{TIMEFRAME_MINUTES}T').agg({
+============================================================
+SuperTrend ScaleIn NoCut - Backtest
+============================================================
+Parameters:
+  - ATR Period: 10
+  - Multiplier: 3.0
+  - Risk per Trade: $100.0
+  - Max Contracts Total: 10
+  - Max Scale-In Count: 5
+  - Timeframe: 15min
+============================================================
+Loading data (UTC)...
+Loading raw data from: C:/Users/elieb/Desktop/Dashboard/backend_runs/07eea8af/filtered_data.csv
+Loading data...
+Columns found: ['ts_event', 'rtype', 'publisher_id', 'instrument_id', 'open', 'high', 'low', 'close', 'volume', 'symbol']
+Sample symbols: ['NQU5' 'NQZ5' 'NQU5-NQZ5' 'NQH6' 'NQZ5-NQH6' 'NQU5-NQH6']
+Date range: 2025-07-30 00:00:00+00:00 to 2025-08-13 23:59:58+00:00
+Filtering with regex: ^NQ[HMUZ][0-9]$
+After symbol filter: 519,966 rows (was 521,571)
+Symbols after filter: ['NQH6', 'NQU5', 'NQZ5']
+Raw data loaded: 519,966 rows
+Resampling to 15min timeframe...
+  Processing symbol NQH6: 53 rows
+    -> 36 bars after resampling
+  Processing symbol NQU5: 515471 rows
+    -> 1012 bars after resampling
+  Processing symbol NQZ5: 4442 rows
+    -> 759 bars after resampling
+Resampled data: 1,807 bars
+Rows total: 1,807 | Symbols example: ['NQH6', 'NQU5', 'NQZ5'] ...
+Date range: 2025-07-30 00:00:00+00:00 to 2025-08-13 23:45:00+00:00
+Running SuperTrend backtest with high_first sequence...
+Saved trades to: supertrend_scalein_trades.csv
+Saved selection log to: front_month_selection_log.csv
+
+=== SUPERTREND SCALE-IN RESULTS ===
+              trades: 11
+            win_rate: 72.73%
+       profit_factor: 2.76
+         avg_win_usd: 3,224.38
+        avg_loss_usd: -3,116.67
+      expectancy_usd: 1,495.00
+         net_pnl_usd: 16,445.00
+          max_dd_usd: -6,950.00
+                days: 13
+      winning_trades: 8
+       losing_trades: 3
+        gross_profit: 25,795.00
+          gross_loss: 9,350.00
+
+=== SAMPLE TRADES (first 5) ===
+2025-07-30 | NQU5 | Scale-in #1 | 1 contracts @ 23518.25 -> 23725.00 | 206.75pts | $4135.00
+2025-07-30 | NQU5 | Scale-in #2 | 1 contracts @ 23667.25 -> 23725.00 | 57.75pts | $1155.00
+2025-08-05 | NQU5 | Scale-in #1 | 1 contracts @ 23400.50 -> 23053.00 | -347.50pts | $-6950.00
+2025-08-06 | NQU5 | Scale-in #1 | 1 contracts @ 23219.25 -> 23452.00 | 232.75pts | $4655.00
+2025-08-07 | NQU5 | Scale-in #1 | 1 contracts @ 23499.50 -> 23539.25 | 39.75pts | $795.00

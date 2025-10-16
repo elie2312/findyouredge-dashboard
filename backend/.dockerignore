@@ -9,8 +9,8 @@ env/
 .venv
 *.log
 .git
-backend_runs/
 runs/
-data/
-*.csv
+data/raw/
 debug.log
+# Garder les CSV des stratégies mais exclure les gros fichiers de données
+data/*.csv

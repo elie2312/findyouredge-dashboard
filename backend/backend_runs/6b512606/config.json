@@ -1,0 +1,22 @@
+{
+  "run_id": "6b512606",
+  "strategy_name": "SuperTrend ScaleIn NoCut",
+  "script_path": "C:\\Users\\elieb\\Desktop\\Dashboard\\backend\\strategies\\BACKTEST_SuperTrend_ScaleIn_NoCut.py",
+  "base_path": "C:\\Users\\elieb\\Desktop\\Dashboard\\backend",
+  "csv_path": null,
+  "parameters": {
+    "ATR_PERIOD": 10,
+    "MULTIPLIER": 3,
+    "RISK_PER_TRADE_USD": 100,
+    "MAX_CONTRACTS_TOTAL": 10,
+    "MAX_SCALE_IN_COUNT": 5,
+    "TICK_SIZE": 0.25,
+    "POINT_VALUE": 20,
+    "SLIPPAGE_TICKS": 0,
+    "COMMISSION_RT": 0,
+    "START_DATE": "2024-08-14",
+    "END_DATE": "2024-08-21"
+  },
+  "name": null,
+  "created_at": "2025-10-12T15:54:27.865030"
+}

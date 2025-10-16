@@ -1,0 +1,73 @@
+=== Commande ===
+C:\Users\elieb\Desktop\Dashboard\backend\venv\Scripts\python.exe C:\Users\elieb\Desktop\Dashboard\backend_runs\37db0dcd\BACKTEST_30mn_SimpleCandle_Strategy_PARAM.py
+
+=== Exécution ===
+Loading data (UTC)...
+Rows total: 271,529 | Symbols example: ['NQH5', 'NQU4', 'NQZ4'] ...
+[DEBUG] Trade #1 - Barre 2024-08-14 10:30:00+00:00: O=19096.50 C=19112.00
+  [LONG] Entry=19112.00, SL=19087.25, TP=19136.75, R=24.75
+  [TP] Exit a 2024-08-14 12:30:00+00:00 au prix 19136.75
+[DEBUG] Trade #2 - Barre 2024-08-14 11:00:00+00:00: O=19112.00 C=19109.25
+  [SHORT] Entry=19109.25, SL=19115.25, TP=19103.25, R=6.00
+  [SL] Exit a 2024-08-14 11:30:00+00:00 au prix 19115.25
+[DEBUG] Trade #3 - Barre 2024-08-14 11:30:00+00:00: O=19109.00 C=19103.25
+  [SHORT] Entry=19103.25, SL=19122.50, TP=19084.00, R=19.25
+  [SL] Exit a 2024-08-14 12:30:00+00:00 au prix 19122.50
+[DEBUG] Trade #1 - Barre 2024-08-15 10:30:00+00:00: O=19167.75 C=19136.50
+  [SHORT] Entry=19136.50, SL=19170.75, TP=19102.25, R=34.25
+  [SL] Exit a 2024-08-15 11:30:00+00:00 au prix 19170.75
+[DEBUG] Trade #2 - Barre 2024-08-15 11:00:00+00:00: O=19136.25 C=19115.25
+  [SHORT] Entry=19115.25, SL=19174.50, TP=19056.00, R=59.25
+  [SL] Exit a 2024-08-15 11:30:00+00:00 au prix 19174.50
+[DEBUG] Trade #3 - Barre 2024-08-15 11:30:00+00:00: O=19115.50 C=19168.75
+  [LONG] Entry=19168.75, SL=19112.00, TP=19225.50, R=56.75
+  [TP] Exit a 2024-08-15 13:00:00+00:00 au prix 19225.50
+[DEBUG] Trade #1 - Barre 2024-08-16 10:30:00+00:00: O=19618.50 C=19593.25
+  [SHORT] Entry=19593.25, SL=19642.75, TP=19543.75, R=49.50
+  [TP] Exit a 2024-08-16 12:30:00+00:00 au prix 19543.75
+[DEBUG] Trade #2 - Barre 2024-08-16 11:00:00+00:00: O=19593.50 C=19594.00
+  [LONG] Entry=19594.00, SL=19578.00, TP=19610.00, R=16.00
+  [SL] Exit a 2024-08-16 11:30:00+00:00 au prix 19578.00
+[DEBUG] Trade #3 - Barre 2024-08-16 11:30:00+00:00: O=19593.75 C=19572.75
+  [SHORT] Entry=19572.75, SL=19599.00, TP=19546.50, R=26.25
+  [TP] Exit a 2024-08-16 12:30:00+00:00 au prix 19546.50
+[DEBUG] Trade #1 - Barre 2024-08-19 10:30:00+00:00: O=19579.25 C=19597.50
+  [LONG] Entry=19597.50, SL=19563.00, TP=19632.00, R=34.50
+  [TP] Exit a 2024-08-19 12:30:00+00:00 au prix 19632.00
+[DEBUG] Trade #2 - Barre 2024-08-19 11:00:00+00:00: O=19596.75 C=19581.50
+  [SHORT] Entry=19581.50, SL=19606.00, TP=19557.00, R=24.50
+  [SL] Exit a 2024-08-19 11:30:00+00:00 au prix 19606.00
+[DEBUG] Trade #3 - Barre 2024-08-19 11:30:00+00:00: O=19580.50 C=19613.25
+  [LONG] Entry=19613.25, SL=19577.50, TP=19649.00, R=35.75
+  [SL] Exit a 2024-08-19 14:00:00+00:00 au prix 19577.50
+[DEBUG] Trade #1 - Barre 2024-08-20 10:30:00+00:00: O=19881.25 C=19875.00
+  [SHORT] Entry=19875.00, SL=19899.25, TP=19850.75, R=24.25
+  [TP] Exit a 2024-08-20 13:00:00+00:00 au prix 19850.75
+[DEBUG] Trade #2 - Barre 2024-08-20 11:00:00+00:00: O=19874.75 C=19876.50
+  [LONG] Entry=19876.50, SL=19869.00, TP=19884.00, R=7.50
+  [TP] Exit a 2024-08-20 11:30:00+00:00 au prix 19884.00
+[DEBUG] Trade #3 - Barre 2024-08-20 11:30:00+00:00: O=19877.00 C=19870.75
+  [SHORT] Entry=19870.75, SL=19892.00, TP=19849.50, R=21.25
+  [TP] Exit a 2024-08-20 13:00:00+00:00 au prix 19849.50
+[DEBUG] Trade #1 - Barre 2024-08-21 10:30:00+00:00: O=19795.00 C=19815.00
+  [LONG] Entry=19815.00, SL=19791.75, TP=19838.25, R=23.25
+  [TP] Exit a 2024-08-21 11:00:00+00:00 au prix 19838.25
+[DEBUG] Trade #2 - Barre 2024-08-21 11:00:00+00:00: O=19815.25 C=19842.75
+  [LONG] Entry=19842.75, SL=19795.00, TP=19890.50, R=47.75
+  [TP] Exit a 2024-08-21 14:30:00+00:00 au prix 19890.50
+[DEBUG] Trade #3 - Barre 2024-08-21 11:30:00+00:00: O=19842.75 C=19844.50
+  [LONG] Entry=19844.50, SL=19815.00, TP=19874.00, R=29.50
+  [TP] Exit a 2024-08-21 14:00:00+00:00 au prix 19874.00
+Saved trades to: close30_trades.csv
+Saved selection log to: front_month_selection_log.csv
+
+=== RESULTS (30mn close strategy - Simple Candle) ===
+          trades: 24
+        win_rate: 58.33%
+   profit_factor: 1.67
+     avg_win_usd: 590.36
+    avg_loss_usd: -493.50
+  expectancy_usd: 138.75
+     net_pnl_usd: 3,330.00
+      max_dd_usd: -2,005.00
+            days: 6

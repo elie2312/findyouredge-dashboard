@@ -1,0 +1,31 @@
+=== Commande ===
+C:\Users\elieb\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\python.exe C:\Users\elieb\Desktop\Dashboard\backend_runs\c8e57f2f\BACKTEST_15mn_PARAM.py
+
+=== Exécution ===
+Loading data (UTC)...
+Rows total: 519,966 | Symbols available: ['NQH6', 'NQU5', 'NQZ5'] ...
+Backtest with ENTRY_BUFFER_TICKS = 2 ...
+Saved trades to: opr_trades_utc_front_month_entry_buffer.csv
+Saved selection log to: front_month_selection_log.csv
+
+=== RESULTS (front-month + entry buffer) ===
+          trades: 9
+        win_rate: 88.89%
+   profit_factor: 1.23
+     avg_win_usd: 245.00
+    avg_loss_usd: -1,590.00
+  expectancy_usd: 41.11
+     net_pnl_usd: 370.00
+      max_dd_usd: -1,590.00
+            days: 13
+
+=== ALT (low_first) ===
+          trades: 9
+        win_rate: 88.89%
+   profit_factor: 1.23
+     avg_win_usd: 245.00
+    avg_loss_usd: -1,590.00
+  expectancy_usd: 41.11
+     net_pnl_usd: 370.00
+      max_dd_usd: -1,590.00
+            days: 13

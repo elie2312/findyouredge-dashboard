@@ -1,0 +1,31 @@
+=== Commande ===
+C:\Users\elieb\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\python.exe C:\Users\elieb\Desktop\Dashboard\backend_runs\82dd1654\BACKTEST_30mn_SimpleCandle_Strategy_PARAM.py
+
+=== Exécution ===
+C:\Users\elieb\Desktop\Dashboard\backend_runs\82dd1654\BACKTEST_30mn_SimpleCandle_Strategy_PARAM.py:136: FutureWarning: 'T' is deprecated and will be removed in a future version, please use 'min' instead.
+  ohlc = g[["open","high","low","close"]].resample("30T", label="right", closed="right").agg({
+C:\Users\elieb\Desktop\Dashboard\backend_runs\82dd1654\BACKTEST_30mn_SimpleCandle_Strategy_PARAM.py:140: FutureWarning: 'T' is deprecated and will be removed in a future version, please use 'min' instead.
+  vol = g[["volume"]].resample("30T", label="right", closed="right").sum()
+C:\Users\elieb\Desktop\Dashboard\backend_runs\82dd1654\BACKTEST_30mn_SimpleCandle_Strategy_PARAM.py:136: FutureWarning: 'T' is deprecated and will be removed in a future version, please use 'min' instead.
+  ohlc = g[["open","high","low","close"]].resample("30T", label="right", closed="right").agg({
+C:\Users\elieb\Desktop\Dashboard\backend_runs\82dd1654\BACKTEST_30mn_SimpleCandle_Strategy_PARAM.py:140: FutureWarning: 'T' is deprecated and will be removed in a future version, please use 'min' instead.
+  vol = g[["volume"]].resample("30T", label="right", closed="right").sum()
+C:\Users\elieb\Desktop\Dashboard\backend_runs\82dd1654\BACKTEST_30mn_SimpleCandle_Strategy_PARAM.py:136: FutureWarning: 'T' is deprecated and will be removed in a future version, please use 'min' instead.
+  ohlc = g[["open","high","low","close"]].resample("30T", label="right", closed="right").agg({
+C:\Users\elieb\Desktop\Dashboard\backend_runs\82dd1654\BACKTEST_30mn_SimpleCandle_Strategy_PARAM.py:140: FutureWarning: 'T' is deprecated and will be removed in a future version, please use 'min' instead.
+  vol = g[["volume"]].resample("30T", label="right", closed="right").sum()
+Loading data (UTC)...
+Rows total: 137,859 | Symbols example: ['NQH5', 'NQU4', 'NQZ4'] ...
+Saved trades to: close30_trades.csv
+Saved selection log to: front_month_selection_log.csv
+
+=== RESULTS (30mn close strategy - Simple Candle) ===
+          trades: 12
+        win_rate: 50.00%
+   profit_factor: 1.49
+     avg_win_usd: 735.00
+    avg_loss_usd: -491.67
+  expectancy_usd: 121.67
+     net_pnl_usd: 1,460.00
+      max_dd_usd: -2,005.00
+            days: 3
