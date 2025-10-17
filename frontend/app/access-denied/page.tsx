@@ -251,7 +251,7 @@ export default function AccessDeniedPage() {
           {/* Actions */}
           <div className="space-y-3">
             <button
-              onClick={() => window.location.href = 'https://votre-site-abonnement.com'}
+              onClick={() => window.location.href = 'https://findyouredge.pro/login'}
               className="w-full py-4 bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white font-semibold rounded-lg transition-all shadow-lg hover:shadow-xl flex items-center justify-center gap-2 group"
             >
               <span>Mettre à niveau mon abonnement</span>
