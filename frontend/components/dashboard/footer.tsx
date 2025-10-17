@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import { Twitter, Github, Linkedin, Mail } from 'lucide-react'
+import { Linkedin, Mail } from 'lucide-react'
 
 export function Footer() {
   return (
@@ -54,13 +54,7 @@ export function Footer() {
           <div>
             <h4 className="text-white font-semibold mb-4">Contact</h4>
             <div className="flex gap-3">
-              <a href="#" className="w-9 h-9 flex items-center justify-center bg-violet-500/10 hover:bg-violet-500/20 border border-violet-400/30 hover:border-violet-400/60 rounded-lg transition-all">
-                <Twitter className="w-4 h-4 text-violet-400" />
-              </a>
-              <a href="#" className="w-9 h-9 flex items-center justify-center bg-violet-500/10 hover:bg-violet-500/20 border border-violet-400/30 hover:border-violet-400/60 rounded-lg transition-all">
-                <Github className="w-4 h-4 text-violet-400" />
-              </a>
-              <a href="#" className="w-9 h-9 flex items-center justify-center bg-violet-500/10 hover:bg-violet-500/20 border border-violet-400/30 hover:border-violet-400/60 rounded-lg transition-all">
+              <a href="https://www.linkedin.com/company/findyouredge-app/about/" target="_blank" rel="noopener noreferrer" className="w-9 h-9 flex items-center justify-center bg-violet-500/10 hover:bg-violet-500/20 border border-violet-400/30 hover:border-violet-400/60 rounded-lg transition-all">
                 <Linkedin className="w-4 h-4 text-violet-400" />
               </a>
               <a href="#" className="w-9 h-9 flex items-center justify-center bg-violet-500/10 hover:bg-violet-500/20 border border-violet-400/30 hover:border-violet-400/60 rounded-lg transition-all">
